@@ -1,0 +1,9 @@
+{
+    "name": "newtime-est/autovista-appraisal",
+    "autoload": {
+        "psr-4" : {
+            "AutovistaAppraisal\\" : "src",
+            "AutovistaAppraisal\\WSDL\\" : "src/wsdl"
+        }
+    }
+}
