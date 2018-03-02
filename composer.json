@@ -1,9 +1,21 @@
 {
     "name": "newtime-est/autovista-appraisal",
+    "description": "PHP client for interfacing with Autovista Appraisal Interface",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Sander Sats",
+            "email": "sander@newtime.ee"
+        }
+    ],
+    "require": {
+        "php": ">=5.6"
+    },
     "autoload": {
         "psr-4" : {
             "AutovistaAppraisal\\" : "src",
             "AutovistaAppraisal\\WSDL\\" : "src/wsdl"
         }
-    }
+    },
+    "license": "MIT"
 }
